@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card text-center p-5">
+              <i class="fa-solid fa-location-dot"></i>
+                <h4 class="card-title">Address</h4>
+                <p class="lead1">Mada Center 8th floor, 379 Hudson St,<br>New York, NY 10018 US</p>
+            </div>
+        </div>
+
+
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card text-center p-5">
+              <i class="fa-solid fa-phone"></i>
+                <h4 class="card-title">Lets Talk</h4>
+                <p class="lead2">+1 800 1236879</p>
+            </div>
+        </div>
+  </section>
+
+  <section id="about" class="bg-light">
+    <div class="container">
+      <h2>Send Us A Message</h2>
+      <form action="contact-form.php" method="POST">
+          <label for="name">TELL US YOUR NAME*</label> First Name:
+          <input type="text" id="name" name="fName" required> Last Name:
+          <input type="text" id="name" name="lName" required> 
+
+          <label for="email">ENTER YOUR EMAIL*</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">ENTER PHONE NUMBER</label>
+          <input type="number" id="phone" name="phone" required>
+
+          <label for="message">MESSAGE*</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+  </section>
+</body>

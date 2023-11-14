@@ -1,0 +1,44 @@
+#contact {
+  background-image: url("photo.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.lead2 {
+  color: rgba(109, 25, 25, 0.697);
+  
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: aqua;
+  margin-top: 10px;
+  color: rgb(10, 12, 12);
+  cursor: pointer;
+}
